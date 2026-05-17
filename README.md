@@ -8,9 +8,9 @@ High-performance 3D FDTD solver for the linear acoustic wave equation with GPU (
 
 This repository implements a 3D finite-difference time-domain (FDTD) solver for the linear acoustic wave equation:
 
-$$
-\frac{\partial^2 p}{\partial t^2}=c^2\nabla^2 p
-$$
+<p align="center">
+  <img src="figures/wave_equation.png" width="400">
+</p>
 The project is designed for:
 
 * Acoustic wave propagation simulation
