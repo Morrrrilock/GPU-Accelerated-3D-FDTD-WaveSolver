@@ -46,7 +46,9 @@ The solver uses a seven-point Cartesian stencil for the 3D Laplacian operator.
 
 The numerical update scheme follows:
 
-p_{i,j,k}^{n+1}=\left(2-6\lambda^2\right)p_{i,j,k}^n+\lambda^2\sum_{neighbors}p^n-p_{i,j,k}^{n-1}
+<p align="center">
+  <img src="figure/numerical update scheme.png" width="400">
+</p>
 
 where
 
