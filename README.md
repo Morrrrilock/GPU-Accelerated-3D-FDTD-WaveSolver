@@ -7,9 +7,8 @@ High-performance 3D FDTD solver for the linear acoustic wave equation with GPU (
 ## Overview
 
 This repository implements a 3D finite-difference time-domain (FDTD) solver for the linear acoustic wave equation:
-
 <p align="center">
-  <img src="figures/wave_equation.png" width="300">
+  <img src="figures/wave_equation.png" width="200">
 </p>
 The project is designed for:
 
@@ -44,21 +43,17 @@ The solver supports both CPU (NumPy) and GPU (CuPy) backends, enabling direct pe
 The solver uses a seven-point Cartesian stencil for the 3D Laplacian operator.
 
 The numerical update scheme follows:
-
 <p align="center">
   <img src="figures/Second-order explicit FDTD update equation.png" width="600">
 </p>
-
 where
-
 <p align="center">
   <img src="figures/Courant–Friedrichs–Lewy (CFL) Number.png" width="200">
 </p>
-
 The Courant stability condition is:
-
-\lambda\leq\frac{1}{\sqrt{3}}
-
+<p align="center">
+  <img src="figures/Courant Stability Condition.png" width="200">
+</p>
 ---
 
 ## Repository Structure
