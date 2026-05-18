@@ -117,7 +117,7 @@ pip install cupy-cuda12x
 Run the main benchmark test:
 
 ```bash
-python fdtd_solver.py
+python FDTD Solver for 3D Linear Wave Equation.py
 ```
 
 The script will:
