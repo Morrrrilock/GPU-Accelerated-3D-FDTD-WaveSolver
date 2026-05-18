@@ -46,7 +46,7 @@ The solver uses a seven-point Cartesian stencil for the 3D Laplacian operator.
 The numerical update scheme follows:
 
 <p align="center">
-  <img src="figures/numerical update scheme.png" width="400">
+  <img src="figures/Second-order explicit FDTD update equation.png" width="400">
 </p>
 
 where
