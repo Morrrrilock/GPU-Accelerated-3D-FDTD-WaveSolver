@@ -9,7 +9,7 @@ High-performance 3D FDTD solver for the linear acoustic wave equation with GPU (
 This repository implements a 3D finite-difference time-domain (FDTD) solver for the linear acoustic wave equation:
 
 <p align="center">
-  <img src="wave_equation.png" width="400">
+  <img src="figures/wave_equation.png" width="400">
 </p>
 The project is designed for:
 
