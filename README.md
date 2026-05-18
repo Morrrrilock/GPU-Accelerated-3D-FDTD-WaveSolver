@@ -52,7 +52,7 @@ The numerical update scheme follows:
 where
 
 <p align="center">
-  <img src="figures/Courant–Friedrichs–Lewy (CFL) Number.png" width="400">
+  <img src="figures/Courant–Friedrichs–Lewy (CFL) Number.png" width="100">
 </p>
 
 The Courant stability condition is:
