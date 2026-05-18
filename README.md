@@ -226,7 +226,7 @@ This project is released under the MIT License.
 
 ## Author
 
-Developed for research in:
+Developed by Zongwen(Alex) Hu for for research in:
 
 * Computational acoustics
 * Scientific computing
