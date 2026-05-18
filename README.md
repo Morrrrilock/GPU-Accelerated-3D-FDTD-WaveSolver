@@ -74,9 +74,9 @@ GPU-Accelerated-3D-FDTD-WaveSolver/
 ├── figures/
 │   Equation images and documentation figures used in the README
 │   ├── wave_equation.png
-│   ├── update_scheme.png
-│   ├── courant_number.png
-│   └── courant_condition.png
+│   ├── Second-order explicit FDTD update equation.png
+│   ├── Courant–Friedrichs–Lewy (CFL) Number.png
+│   └── Courant Stability Condition.png
 │
 ├── data/
 │   Benchmark and simulation output datasets
