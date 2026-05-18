@@ -157,7 +157,6 @@ If CuPy is unavailable, the solver automatically falls back to CPU mode using Nu
 Supported environments:
 
 * NVIDIA CUDA GPUs
-* Google Colab
 * Jupyter Notebook
 * Linux / Windows
 
