@@ -44,15 +44,15 @@ The solver uses a seven-point Cartesian stencil for the 3D Laplacian operator.
 
 The numerical update scheme follows:
 <p align="center">
-  <img src="figures/Second-order explicit FDTD update equation.png" width="600">
+  <img src="figures/Second-order explicit FDTD update equation.png" width="500">
 </p>
 where
 <p align="center">
-  <img src="figures/Courant–Friedrichs–Lewy (CFL) Number.png" width="200">
+  <img src="figures/Courant–Friedrichs–Lewy (CFL) Number.png" width="100">
 </p>
 The Courant stability condition is:
 <p align="center">
-  <img src="figures/Courant Stability Condition.png" width="200">
+  <img src="figures/Courant Stability Condition.png" width="100">
 </p>
 ---
 
