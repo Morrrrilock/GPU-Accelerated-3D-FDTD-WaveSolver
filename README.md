@@ -59,16 +59,38 @@ The Courant stability condition is:
 ## Repository Structure
 
 ```text
-.
-├── fdtd_solver.py                # Main solver implementation
-├── gpu_cpu_comparison.npz        # Benchmark results
-├── speedup_results.npz           # Speedup analysis results
-├── fdtd_comparison.png           # GPU vs CPU comparison figure
-├── speedup_analysis.png          # Speedup visualization
+GPU-Accelerated-3D-FDTD-WaveSolver/
+│
+├── FDTD_solver.py
+│   Main implementation of the 3D acoustic FDTD solver
+│   including CPU/GPU simulation and benchmarking
+│
 ├── README.md
-└── requirements.txt
+│   Project overview, equations, installation, and usage instructions
+│
+├── requirements.txt
+│   Python package dependencies required for the project
+│
+├── figures/
+│   Equation images and documentation figures used in the README
+│   ├── wave_equation.png
+│   ├── update_scheme.png
+│   ├── courant_number.png
+│   └── courant_condition.png
+│
+├── data/
+│   Benchmark and simulation output datasets
+│   ├── gpu_cpu_comparison.npz
+│   └── speedup_results.npz
+│
+├── results/
+│   Generated visualization and benchmarking results
+│   ├── fdtd_comparison.png
+│   └── speedup_analysis.png
+│
+└── .gitignore
+    Git ignore rules for cache files, environments, and temporary outputs
 ```
-
 ---
 
 ## Installation
