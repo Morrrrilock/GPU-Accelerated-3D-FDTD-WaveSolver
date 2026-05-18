@@ -51,7 +51,9 @@ The numerical update scheme follows:
 
 where
 
-\lambda=\frac{c\Delta t}{\Delta x}
+<p align="center">
+  <img src="figures/Courant–Friedrichs–Lewy (CFL) Number.png" width="400">
+</p>
 
 The Courant stability condition is:
 
