@@ -80,7 +80,7 @@ The Courant stability condition is:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/GPU-Accelerated-3D-FDTD-WaveSolver.git
+git clone https://github.com/Morrrrilock/GPU-Accelerated-3D-FDTD-WaveSolver.git
 cd GPU-Accelerated-3D-FDTD-WaveSolver
 ```
 
