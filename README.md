@@ -154,7 +154,7 @@ Supported environments:
 
 * NVIDIA CUDA GPUs
 * Jupyter Notebook
-* Linux / Windows
+* Windows
 
 ---
 
@@ -197,20 +197,6 @@ Potential applications include:
 * GPU computing research
 * Scientific machine learning workflows
 * Hybrid FDTD–machine learning methods
-
----
-
-## Future Work
-
-Planned extensions:
-
-* Absorbing boundary conditions (PML)
-* Frequency-dependent materials
-* Multi-GPU acceleration
-* Hybrid FDTD–neural network frameworks
-* PyTorch-based differentiable FDTD
-* Psychoacoustic error metrics
-* Binaural acoustic simulation
 
 ---
 
