@@ -36,7 +36,6 @@ The solver supports both CPU (NumPy) and GPU (CuPy) backends, enabling direct pe
 * Receiver signal recording
 * Pressure field visualization
 * Speedup analysis across different grid sizes
-* Compatible with Python, Jupyter Notebook, and Google Colab
 
 ---
 
